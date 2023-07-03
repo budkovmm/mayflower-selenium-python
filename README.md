@@ -18,4 +18,5 @@
 ### Установка:
 - создать виртуальное окружение
 - установить зависимости из файла requirements.txt
-- запустить тесты ```pytest --alluredir=./report```
+- запустить тесты ```python -m pytest --alluredir=./report```
+- показать репорт ```allure serve ./report```
